@@ -27,7 +27,7 @@ powdata<-transform(powdata,
                    Sub_metering_2 = as.numeric(Sub_metering_2),
                    Sub_metering_3 = as.numeric(Sub_metering_3))
 
-# Create the plot and save in figure directory
+# Create the plot and save in the figure directory
 png(filename = "figure/plot4.png",width = 480, height = 480, units = "px")
 par(mfrow=c(2,2))
 #First plot
